@@ -1,0 +1,6 @@
+framework module Pods_SimPill {
+  umbrella header "Pods-SimPill-umbrella.h"
+
+  export *
+  module * { export * }
+}

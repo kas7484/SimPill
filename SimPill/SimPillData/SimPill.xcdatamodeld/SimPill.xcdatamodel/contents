@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MedicineRecord" representedClassName="MedicineRecord" syncable="YES">
+        <attribute name="flag" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mSchedule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStrength" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Reminder" representedClassName="Reminder" syncable="YES">
+        <attribute name="u_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="u_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="u_unit" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MedicineRecord" positionX="-63" positionY="54" width="128" height="195"/>
+        <element name="Reminder" positionX="-63" positionY="126" width="128" height="90"/>
+    </elements>
+</model>
